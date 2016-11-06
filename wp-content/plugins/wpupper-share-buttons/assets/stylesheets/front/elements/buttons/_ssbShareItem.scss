@@ -1,0 +1,172 @@
+#wrapper .#{$prefixClass},
+#content .#{$prefixClass} {
+    .#{$prefixClass}-item a,
+    .#{$prefixClass}-item a:hover {
+        font-family: $fontFamily;
+        text-decoration: none;
+    }
+}
+
+.#{$prefixClass}-item a {
+    border-bottom: none;
+    cursor: pointer;
+    display: inline-block;
+    font-family: $fontFamily;
+    text-decoration: none;
+
+    &:hover {
+        border-bottom: none;
+        box-shadow: none;
+        font-family: $fontFamily;
+        text-decoration: none;
+    }
+
+    i,
+    span {
+        display: inline-block;
+        vertical-align: middle;
+        text-align: center;
+    }
+
+    i {
+        font-size: $size;
+        height: $size;
+        width: $size;
+    }
+
+    span {
+        font-size: 12px;
+        margin-left: 5px;
+
+        &:before {
+            content: attr(data-title);
+        }
+    }
+
+    .#{$prefixClass}-buttons & {
+        border-radius: 3px;
+        color: #fff;
+
+        i,
+        i:hover {
+            color: inherit;
+            font-size: 26px;
+            height: 31px;
+            line-height: $size;
+        }
+
+        span {
+            margin-left: 0;
+            padding: 0 5px;
+            position: relative;
+            right: 2px;
+        }
+
+        .#{$prefixClass}-icon-facebook:before {
+            bottom: 1px;
+            position: relative;
+        }
+    }
+}
+
+@each $key, $color in $colors {
+    // Theme > Other
+    @include icon( $key, $color );
+
+    // Theme > Buttons
+    @include icon( $key, $color, buttons );
+
+    // Theme > Square Plus
+    @include icon( $key, $color, 'square-plus' );
+
+    // Theme > items hover
+    @include items-hover( $key, $color );
+}
+
+.#{$prefixClass}-square .#{$prefixClass}-whatsapp i {
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 5px $colorWhatsapp inset;
+    font-size: 31px;
+    line-height: 35px;
+    width: 36px;
+}
+
+.#{$prefixClass}-square .#{$prefixClass}-whatsapp a:hover i {
+    box-shadow: 0px 0px 0px 5px darken( $colorWhatsapp, 5% ) inset;
+}
+
+.#{$prefixClass}-rounded .#{$prefixClass}-printer i,
+ .#{$prefixClass}-square .#{$prefixClass}-printer i {
+    background: $colorPrint;
+    color: #fff;
+    font-size: 25px;
+    line-height: 38px;
+}
+
+.#{$prefixClass}-rounded .#{$prefixClass}-printer a:hover i,
+.#{$prefixClass}-square .#{$prefixClass}-printer a:hover i {
+    background: darken( $colorPrint, 10 );
+    color: #fff;
+}
+
+.#{$prefixClass}-rounded .#{$prefixClass}-printer i {
+    border-radius: 16px;
+}
+
+.#{$prefixClass}-square .#{$prefixClass}-printer i {
+    border-radius: 4px;
+}
+
+.#{$prefixClass} .#{$prefixClass}-viber .#{$prefixClass}-icon-viber-rounded {
+    background: $colorViber;
+    border-radius: 16px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 34px;
+}
+.#{$prefixClass} .#{$prefixClass}-viber a:hover .#{$prefixClass}-icon-viber-rounded {
+    color: #fff;
+}
+.#{$prefixClass}-rounded .#{$prefixClass}-like i,
+.#{$prefixClass}-square .#{$prefixClass}-like i {
+    background: $colorfacebookLike;
+    color: #fff;
+}
+
+.#{$prefixClass}-rounded .#{$prefixClass}-like i {
+    border-radius: 15px;
+    font-size: 27px;
+    line-height: 33px;
+}
+
+.#{$prefixClass}-square .#{$prefixClass}-like i {
+    border-radius: 5px;
+    font-size: 28px;
+    line-height: 34px;
+}
+.#{$prefixClass} .#{$prefixClass}-icon-share-square {
+    font-size: 41px;
+    position: relative;
+    top: -3px;
+}
+
+.#{$prefixClass} .#{$prefixClass}-icon-email-square {
+    font-size: 42px;
+    position: relative;
+    top: -3px;
+}
+
+.fixed-left-container .#{$prefixClass}-icon-share-buttons,
+.fixed-right-container .#{$prefixClass}-icon-share-buttons {
+    left: -3px;
+    position: relative;
+    top: 1px;
+}
+
+.#{$prefixClass}-rounded,
+.#{$prefixClass}-square {
+    .#{$prefixClass}-like a:hover i {
+        background: darken( $colorfacebookLike, 10% );
+        color: #fff;
+    }
+}

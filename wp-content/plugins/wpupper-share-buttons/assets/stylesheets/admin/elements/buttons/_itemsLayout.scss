@@ -1,0 +1,63 @@
+.#{$prefixClass} .#{$prefixClass}-whatsapp,
+.#{$prefixClass} .#{$prefixClass}-telegram,
+.#{$prefixClass} .#{$prefixClass}-viber {
+    display: inline-block;
+}
+
+div[data-component="share-preview"] {
+    position: relative;
+
+    button[data-action="no-title"],
+    button[data-action="no-counter"] {
+        margin: 10px;
+    }
+}
+
+.#{$prefixClass}-preview-container {
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ECECEC;
+    box-shadow: 1px 1px 3px #989898;
+    margin-top: 10px;
+    padding: 8px 6px 0 6px;
+
+    .#{$prefixClass} {
+        margin: 0;
+        padding: 0;
+    }
+
+    .#{$prefixClass}-count {
+        padding: 5px 8px;
+    }
+}
+
+.#{$prefixClass}-fixed-left,
+.#{$prefixClass}-fixed-right {
+    z-index: 99999;
+
+    .#{$prefixClass}-item a {
+        border-radius: initial;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        width: 48px;
+    }
+}
+
+.#{$prefixClass}-square-plus {
+    .#{$prefixClass}-counter {
+        top: 2px;
+
+        .#{$prefixClass}-text {
+            bottom: 4px;
+        }
+
+        .#{$prefixClass}-slash {
+            font-size: 30px;
+            font-weight: normal;
+            left: 83px;
+            line-height: 15px;
+            top: 10px;
+        }
+    }
+}

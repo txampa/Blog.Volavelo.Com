@@ -1,0 +1,65 @@
+// ===================================================
+// --               Variables > Grid
+// ===================================================
+$size               : 35px;
+$tablet             : 769px;
+$mobile             : 521px;
+// ===================================================
+// --       Variables Social Media > Colors
+// ===================================================
+$colorfacebook      : #3b5998;
+$colorfacebookLike  : #4C63A5;
+$colorTwitter       : #00aced;
+$colorGooglePlus    : #dd4b39;
+$colorEmail         : #0082b3;
+$colorGmail         : #de5448;
+$colorPrint         : #61D1D5;
+$colorPinterest     : #cb2027;
+$colorLinkedin      : #007bb6;
+$colorTumblr        : #32506d;
+$colorWhatsapp      : #4BC557;
+$colorYouTube       : #bb0000;
+$colorInstagram     : #517fa4;
+$colorFlickr        : #ff0084;
+$colorTelegram      : #0088cc;
+$colorSkype         : #00aff0;
+$colorViber         : #8f5db7;
+$colorVine			: #00bf8f;
+$colorVK			: #45668e;
+$colorRss			: #f26522;
+$colorShare         : #014e6b;
+$bgAdmin            : #f6fbfd;
+$btnColor           : #0085BA;
+$colorWhite         : #ffffff;
+$colorCheckboxOn    : #34A7C1;
+$colorCheckboxOff   : #BFBFBF;
+$colorDarken        : #454545;
+$colors             : (
+	facebook    : $colorfacebook,
+	like        : $colorfacebookLike,
+	twitter     : $colorTwitter,
+	google-plus : $colorGooglePlus,
+	gmail       : $colorGmail,
+	email       : $colorEmail,
+	printer     : $colorPrint,
+	pinterest   : $colorPinterest,
+	linkedin    : $colorLinkedin,
+	tumblr      : $colorTumblr ,
+	whatsapp    : $colorWhatsapp,
+	youtube     : $colorYouTube,
+	flickr      : $colorFlickr,
+	telegram    : $colorTelegram,
+	skype       : $colorSkype,
+	viber       : $colorViber,
+	rss			: $colorRss,
+	share       : $colorShare
+);
+// ===================================================
+// --              Variables > Prefix
+// ===================================================
+$prefixClass 	    : "wpusb";
+// ===================================================
+// --              Variables > Font Size
+// ===================================================
+$fontSizeDefault    : 14px;
+$fontFamily         : Arial, Sans-serif, Helvetica;

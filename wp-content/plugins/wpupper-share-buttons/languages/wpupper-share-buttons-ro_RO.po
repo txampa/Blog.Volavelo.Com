@@ -1,0 +1,409 @@
+# Translation of Development (trunk) in Romanian
+# This file is distributed under the same license as the Development (trunk) package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Development (trunk)\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wpupper-share-"
+"buttons\n"
+"POT-Creation-Date: 2016-07-06 12:02-0300\n"
+"PO-Revision-Date: 2016-07-06 12:02-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < "
+"20)) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.8\n"
+
+#: Config/core.php:92 View/settings-extra.view.php:93
+msgid "I just saw"
+msgstr ""
+
+#: Config/core.php:93
+msgid "Click to see also"
+msgstr ""
+
+#: Config/core.php:107
+msgid "Share on Facebook"
+msgstr "Partajează pe Facebook"
+
+#: Config/core.php:113 Config/core.php:139 Config/core.php:152
+#: Config/core.php:165 Config/core.php:178 Config/core.php:191
+#: Config/core.php:230 Config/core.php:243 Config/core.php:256
+msgid "Share"
+msgstr "Partajează"
+
+#: Config/core.php:120 Config/core.php:126
+msgid "Tweet"
+msgstr ""
+
+#: Config/core.php:133
+msgid "Share on Google+"
+msgstr ""
+
+#: Config/core.php:146
+msgid "Share on WhatsApp"
+msgstr ""
+
+#: Config/core.php:159
+msgid "Share on Pinterest"
+msgstr ""
+
+#: Config/core.php:172
+msgid "Share on Linkedin"
+msgstr ""
+
+#: Config/core.php:185
+msgid "Share on Tumblr"
+msgstr "Partajare pe Tumblr"
+
+#: Config/core.php:198
+msgid "Send by email"
+msgstr ""
+
+#: Config/core.php:211
+msgid "Print via PrintFriendly"
+msgstr ""
+
+#: Config/core.php:217
+msgid "Print"
+msgstr "Printeaza"
+
+#: Config/core.php:224
+msgid "Share on Telegram"
+msgstr ""
+
+#: Config/core.php:237
+msgid "Share on Skype"
+msgstr ""
+
+#: Config/core.php:250
+msgid "Share on Viber"
+msgstr ""
+
+#: Config/core.php:263
+msgid "Like on Facebook"
+msgstr ""
+
+#: Config/core.php:269
+msgid "Like"
+msgstr ""
+
+#: Config/core.php:276 Templates/layouts-primary.php:153
+msgid "Open modal social networks"
+msgstr ""
+
+#: Config/core.php:282
+msgid "More"
+msgstr ""
+
+#: Controller/settings.controller.php:50 View/settings.view.php:43
+msgid "Settings"
+msgstr "Setari"
+
+#: Controller/settings.controller.php:178 View/settings-extra.view.php:29
+#: View/settings-faq.view.php:28 View/settings.view.php:35
+#: View/share-report.view.php:34
+msgid "WPUpper Share Buttons"
+msgstr ""
+
+#: Controller/settings.controller.php:179
+msgid "WPUpper Share"
+msgstr ""
+
+#: Controller/settings.controller.php:188
+msgid "Extra Settings | WPUpper Share Buttons"
+msgstr ""
+
+#: Controller/settings.controller.php:189 View/settings-extra.view.php:37
+#: View/settings.view.php:342
+msgid "Extra Settings"
+msgstr "Setări suplimentare"
+
+#: Controller/settings.controller.php:197
+msgid "Use options | WPUpper Share Buttons"
+msgstr ""
+
+#: Controller/settings.controller.php:198 View/settings-faq.view.php:31
+#: View/settings.view.php:347
+msgid "Use options"
+msgstr ""
+
+#: Controller/share-reports.controller.php:211
+msgid "Title"
+msgstr "Functie"
+
+#: Controller/share-reports.controller.php:212
+msgid "Facebook"
+msgstr "Facebook"
+
+#: Controller/share-reports.controller.php:213
+msgid "Google+"
+msgstr "Google+"
+
+#: Controller/share-reports.controller.php:214
+msgid "Twitter"
+msgstr "Stare de nervozitate"
+
+#: Controller/share-reports.controller.php:215
+msgid "Linkedin"
+msgstr "LinkedIn"
+
+#: Controller/share-reports.controller.php:216
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: Controller/share-reports.controller.php:217
+msgid "Total"
+msgstr "Total"
+
+#: Controller/share-reports.controller.php:283
+msgid "There is no record available at the moment!"
+msgstr ""
+
+#: Controller/share-reports.controller.php:297
+msgid "Sharing Report | WPUpper Share Buttons"
+msgstr ""
+
+#: Controller/share-reports.controller.php:298 View/settings.view.php:352
+msgid "Sharing Report"
+msgstr ""
+
+#: Templates/square-plus.php:107
+msgid "Shares"
+msgstr ""
+
+#: View/settings-extra.view.php:36 View/settings-faq.view.php:29
+#: View/settings.view.php:42 View/share-report.view.php:35
+msgid "Add the Share Buttons automatically."
+msgstr ""
+
+#: View/settings-extra.view.php:48
+msgid "Cache time"
+msgstr ""
+
+#: View/settings-extra.view.php:55
+msgid "Minute"
+msgstr "Minut"
+
+#: View/settings-extra.view.php:57
+msgid "Set the time in minutes that will be cached in the Sharing report page"
+msgstr ""
+
+#: View/settings-extra.view.php:64 View/settings-extra.view.php:70
+msgid "Twitter username"
+msgstr "Nume utilizator Twitter"
+
+#: View/settings-extra.view.php:73
+msgid "Your twitter username"
+msgstr ""
+
+#: View/settings-extra.view.php:79 View/settings-extra.view.php:85
+msgid "Twitter text"
+msgstr ""
+
+#: View/settings-extra.view.php:90
+msgid "Use {title} to add the post title"
+msgstr ""
+
+#: View/settings-extra.view.php:92 View/settings-extra.view.php:113
+msgid "Example: "
+msgstr ""
+
+#: View/settings-extra.view.php:101
+msgid "UTM tracking"
+msgstr ""
+
+#: View/settings-extra.view.php:107
+msgid "Add UTM tracking (Analytics)"
+msgstr ""
+
+#: View/settings-extra.view.php:116
+msgid "Use <code>?</code> and"
+msgstr ""
+
+#: View/settings-extra.view.php:117
+msgid "adding parameters to use <code>&</code> in the tracking."
+msgstr ""
+
+#: View/settings-extra.view.php:125
+msgid "Bitly access token"
+msgstr ""
+
+#: View/settings-extra.view.php:131
+msgid "Insert your access token Bitly"
+msgstr ""
+
+#: View/settings-extra.view.php:135
+msgid "Shorten urls using bitly, generate token in "
+msgstr ""
+
+#: View/settings-extra.view.php:143
+msgid "Remove counter"
+msgstr ""
+
+#: View/settings-extra.view.php:158
+msgid "Remove button title"
+msgstr ""
+
+#: View/settings-extra.view.php:173
+msgid "Disable CSS"
+msgstr "Dezactivare CSS"
+
+#: View/settings-extra.view.php:188
+msgid "Disable JS"
+msgstr ""
+
+#: View/settings-extra.view.php:204 View/settings.view.php:301
+msgid "Save Changes"
+msgstr "Salvază modificările"
+
+#: View/settings.view.php:59
+msgid "Places available"
+msgstr ""
+
+#: View/settings.view.php:67
+msgid "Single"
+msgstr ""
+
+#: View/settings.view.php:76
+msgid "Pages"
+msgstr "Pagini"
+
+#: View/settings.view.php:85
+msgid "Page home"
+msgstr ""
+
+#: View/settings.view.php:94
+msgid "Before content"
+msgstr ""
+
+#: View/settings.view.php:103
+msgid "After content"
+msgstr ""
+
+#: View/settings.view.php:109
+msgid "Social networks available"
+msgstr ""
+
+#: View/settings.view.php:129
+msgid "Custom class"
+msgstr ""
+
+#: View/settings.view.php:134
+msgid "Custom class for primary div"
+msgstr ""
+
+#: View/settings.view.php:141
+msgid "Layout options"
+msgstr "Opțiuni aranjament"
+
+#: View/settings.view.php:143
+msgid "All layout supports responsive"
+msgstr ""
+
+#: View/settings.view.php:154
+msgid "Default"
+msgstr "Implicit"
+
+#: View/settings.view.php:165
+msgid "Button"
+msgstr "Buton"
+
+#: View/settings.view.php:176
+msgid "Rounded"
+msgstr ""
+
+#: View/settings.view.php:187
+msgid "Square"
+msgstr "Pătrat"
+
+#: View/settings.view.php:198
+msgid "Square plus"
+msgstr ""
+
+#: View/settings.view.php:204
+msgid "Position fixed"
+msgstr ""
+
+#: View/settings.view.php:215
+msgid "Fixed left"
+msgstr ""
+
+#: View/settings.view.php:227
+msgid "Fixed right"
+msgstr ""
+
+#: View/settings.view.php:233
+msgid "Clear"
+msgstr ""
+
+#: View/settings.view.php:234
+msgid "Click to clear the positions."
+msgstr ""
+
+#: View/settings.view.php:239
+msgid "Fixed Items in top"
+msgstr ""
+
+#: View/settings.view.php:248
+msgid "Fixed top"
+msgstr ""
+
+#: View/settings.view.php:252
+msgid "It is activated when scrolling the page on the buttons position."
+msgstr ""
+
+#: View/settings.view.php:258
+msgid "Enable highlighted by reference?"
+msgstr ""
+
+#: View/settings.view.php:267
+msgid "Referrer"
+msgstr ""
+
+#: View/settings.view.php:271
+msgid "This allows highlight the social network where the user Came from."
+msgstr ""
+
+#: View/settings.view.php:283
+msgid ""
+"The share count Twitter is powered by <a href=\"http://newsharecounts.com\" "
+"target=\"_blank\">newsharecounts.com</a>, you have to sign up with your "
+"Twitter account to get free service and twitter count. Just visit the "
+"website, fill in the domain of your site and click Sign in with Twitter. "
+"That, and nothing else!"
+msgstr ""
+
+#: View/settings.view.php:320
+msgid "Settings saved."
+msgstr "Setari salvate."
+
+#: View/settings.view.php:337
+msgid "General"
+msgstr ""
+
+#: View/share-report.view.php:27
+msgid "Search"
+msgstr "Cauta"
+
+#: View/share-report.view.php:28
+msgid "This report has a cache of "
+msgstr ""
+
+#: View/share-report.view.php:29
+msgid "minutes"
+msgstr "minute"
+
+#: View/share-report.view.php:30
+#, php-format
+msgid "%d minute"
+msgstr ""
+
+#~ msgid "Share Buttons"
+#~ msgstr "Butoane de Share"
+
+#~ msgid "Fixed"
+#~ msgstr "Imaginea e fixă"
